@@ -1,0 +1,93 @@
+/* */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: #F9F9F7 url('img-background.gif') repeat-x;
+	font-size: 11px;
+	font-family: "trebuchet ms", helvetica, sans-serif;
+	color: #8C8C73;
+	line-height: 18px;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+p {
+	margin-bottom: 14px;
+	text-align: justify;
+}
+
+td.prices {
+	padding: 3px;
+	vertical-align: top;
+}
+
+#outer {
+	position: relative;
+	/* width: 714px; */
+	width: 90%;
+	margin: 0 auto;
+	background: #fff;
+	border-left: 1px solid #c6c6be;
+	border-right: 1px solid #c6c6be;
+}
+
+#inner {
+	position: relative;
+	padding: 13px 13px 13px 14px;
+	z-index: 2;
+}
+
+#img-banner-a {
+}
+
+#img-banner-b {
+	display: none;
+}
+
+#img-collage {
+}
+
+#img-note-a {
+}
+
+#img-note-b {
+	display: none;
+}
+
+#img-header-272 {
+}
+
+#img-header-300 {
+}
+
+#right-side {
+}
+
+
+@media screen and (min-width: 800px)                        { #outer          { width: 714px; } }
+@media screen and (max-width: 799px)                        { #outer          { width: 90%; }
+                                                              #img-banner-a   { width: 100%; height: auto; margin-right: auto; margin-left: auto; min-width: 300px; max-width: 687px; }
+                                                              #img-collage    { width: 100%; height: auto; margin-right: auto; margin-left: auto; min-width: 50px; max-width: 380px; }
+                                                              #img-note-a     { width: 100%; height: auto; margin-right: auto; margin-left: auto; min-width: 50px; max-width: 245px; }
+                                                              }
+@media screen and (max-width: 600px)                        { #right-side     { display: none !important } 
+                                                              #img-banner-a   { display: none !important } 
+                                                              #img-banner-b   { width: 100%; height: auto; margin-right: auto; margin-left: auto; min-width: 200px; max-width: 500px; display: block; } 
+                                                              #img-note-b     { width: 100%; height: auto; margin-right: auto; margin-left: auto; min-width: 200px; max-width: 500px; display: block; }
+                                                              #img-header-272 { width: 100%; height: auto; min-width: 200px; max-width: 272px; display: block; }
+                                                              #img-header-300 { width: 100%; height: auto; min-width: 200px; max-width: 300px; display: block; }
+                                                              }
+
+
+
